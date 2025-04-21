@@ -13,6 +13,8 @@ print(favroite_language.rstrip())
 other_language = '   java'   
 print(other_language.lstrip())
 
+quote_person = "Albert Einstein"
+quote_message = "A person who never made a mistake never tried anything new."
+print(f"{quote_person} once said, '{quote_message}'")
 
-quote = 'Albert Einstein once said, "A person who never made a mistake never tried anything new."'
-print(quote)    
+
