@@ -26,3 +26,16 @@ quote_message = "A person who never made a mistake never tried anything new."
 print(f"{quote_person} once said, '{quote_message}'")
 
 
+# NUMBERS
+
+# Multiple assignment
+x, y, z = 1, 2, 3
+print(x, y, z)
+
+# CONSTANTS
+# Constants are variables that should not be changed.
+# Constants are usually written in all uppercase letters.
+PI = 3.14159
+print(f"The value of PI is {PI}")
+# Constants are usually defined at the top of the file.
+# Constants are usually defined in a separate file.
