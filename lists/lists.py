@@ -23,7 +23,19 @@ print(motorcycles)
 print(poped_motorcycle)
 
 
-
 expensive_motorcycles = 'honda'
 motorcycles.remove(expensive_motorcycles)
 print(motorcycles)
+
+
+
+guest_list = ["Ivan", "Masha", "Sasha", "Georgi"]
+print(f"Hello {guest_list[0]}, you are invited to dinner.")
+print(f"Hello {guest_list[1]}, you are invited to dinner.")
+print(f"Hello {guest_list[2]}, you are invited to dinner.")
+
+print(f"{guest_list[1]} can't make it to dinner.")
+guest_list[1] = "Pesho"
+
+guest_list.pop(2)   
+print(guest_list)
